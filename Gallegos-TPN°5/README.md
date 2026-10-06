@@ -1,0 +1,8 @@
+Punto A; Consigna 1: He usado box-shadow y transform, debido a que no habia visto como afectanban sus funciones en página antes y queria probar cosas nuevas, me gustó. Además, ya había usado las otras dos antes.
+Punto A; Consigna 2: Una Pseudo-clase agarra un elemento existente cuando está en un estado predeterminado, como lo sería ser poner un cursor sobre ellos. Mientras que un Pseudo-elemento crea o selecciona una parte especifica del anterior elemento, como poner texto o algún emoji (crear una parte nueva), en todas las etiquetas p (elemento existente).
+Punto A; Consigna 3: Por lo general, se programa el :hover antes del :active, porque sino el estilo del :active no aparecé por la regla de cascada.
+Punto A; Consigna 4: Slection es un pseudo-elemento, uno se puede dar cuanta por su sintaxis básica, un pseudo-elemento se escribe con :: al principio, cuando una pseudo-clase se escribe con : nada más.
+Punto B; Consigna 8: El valor que se necesita en border-radious es de 300px para que sea un cuadrado círculo.
+Punto C; Consigna 5: El overflow: hidden; hace que cuando la imgen se agrande se oculten en vez de pasar de largo, la transition hace que la animación sea más fluida y por último el transform hace que la escala suba un 10%.
+Punto C; Consigna 7: El border-style permite darle diferentes formas al borde de cualquier elemento, en mi caso del botón enviar del formulario.
+Punto C; Consigna 8: El opacity hace que el elemento, en mi caso mi magen, sea menos visible, cuando conbinamos esto con un :hover, podemos hacer que la imagen que es menos visible lo sea más cuando se pasa el cursor por encima.

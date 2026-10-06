@@ -1,0 +1,222 @@
+:root {
+    --fuente: "Trebuchet MS", Tahoma, sans-serif; /*'Inter', system-ui, sans-serif;*/
+    --color-texto: white; /*#FFFFFF*/
+    --color-fondo: #191919; /*#000000EA*/
+    --color-primario: rgb(58, 148, 221); /*#3A94DD*/
+    --color-secundario: #0A2463;
+    --color-terciario: #F15025;
+}
+
+* {
+    cursor: url('https://cdn.cursors-4u.net/previews/rgb-cursor-dark-6e1535b0-preview-32.webp') 0 0, auto !important;
+}
+
+body {
+    font-family: var(--fuente);
+    color: var(--color-texto);
+    background-color: var(--color-fondo);
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* ===== TIPOGRAFÍA ===== */
+#degrade{
+    background: linear-gradient(90deg, var(--color-primario), var(--color-terciario));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 70px;
+}
+
+#degrade1{
+    background: linear-gradient(90deg, var(--color-terciario), var(--color-primario));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 70px;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 2rem;
+    color: var(--color-primario);
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: var(--color-primario);
+    margin-bottom: 12px;
+}
+
+h3 {
+    font-size: 1.15rem;
+    color: var(--color-texto);
+    margin-bottom: 8px;
+}
+
+a{
+    color: var(--color-terciario);
+}
+
+#GOLD{
+    border-radius: 300px;
+    width: 300px;
+    height: 300px;
+    opacity: 0.3;
+    transition: 0.3s;
+}
+#GOLD:hover{
+    opacity: 1;
+}
+
+#foto-b{
+    border-radius: 15px;
+    color: var(--color-primario);
+    background-color: var(--color-secundario);
+}
+
+/* ==== HEADER ==== */
+
+header{
+    background-color: var(--color-secundario);
+    color: white;
+    padding: 24px 32px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+header h1 {
+    color: white;
+    margin-bottom: 12px;
+}
+
+/* ==== NAV ====*/
+nav a{
+    color: var(--color-terciario);
+    margin: 0 12px;
+    font-weight: bold;
+    padding: 4px 8px;
+}
+
+nav a:hover{
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+nav a:active{
+    color: var(--color-primario);
+    border-bottom: 2px solid var(--color-primario);
+}
+
+/* ==== MAIN ==== */
+main{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 32px 24px;
+}
+
+/* ==== SECCIONES ==== */
+section{
+    margin-bottom: 40px;
+}
+
+/* ==== ARTÍCULOS (tarjetas de proyecto) ====*/
+article{
+    border: 1px solid var(--color-primario);
+    border-radius: 8px;
+    padding: 16px 20px;
+    margin-bottom: 16px;
+}
+
+article{
+    box-shadow: 0 2px 8px rgba(0,0,0,0,1);
+}
+
+/* article p{
+    margin-left: 500px;
+} */
+
+/* ==== FOOTER ==== */
+footer{
+    background-color: var(--color-secundario);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.875rem;
+    border-radius: 5px;
+}
+
+/* ==== LISTA ==== */
+ul{
+    list-style: none;
+}
+
+li{
+    padding: 8px 0;
+    border-bottom: 1px solid var(--color-primario);
+}
+
+/* ==== TRANSICIONES ==== */
+a{
+    transition: color 0.3s;
+
+}
+
+#but{
+    background-color: var(--color-primario);
+    border-color: var(--color-secundario);
+    color: var(--color-fondo);
+    border-radius: 5px;
+    padding: 5px;
+    transition: 0.3s;
+}
+
+#but:hover{
+    border-style: dashed;
+    border-color: var(--color-terciario);
+}
+
+#vinc{
+    background-color: var(--color-primario);
+    color: var(--color-secundario);
+    border-color: var(--color-secundario);
+    transition: 0.3s;
+}
+
+#vinc:hover{
+    background-color: var(--color-secundario);
+    color: var(--color-primario);
+    border-color: var(--color-primario);
+    box-shadow: 0px 4px 10px var(--color-primario); /*Poner los pixeles de medida*/
+    transform: rotate(7deg); /*Poner grados*/
+}
+
+section p::before{
+    content: "🤩";
+}
+
+::selection{
+    background-color: violet;
+    color: #0A2463;
+}
+
+.contenedor{
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.contenedor img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.3s ease;
+}
+
+.contenedor:hover img{
+    transform: scale(1.1);
+}
